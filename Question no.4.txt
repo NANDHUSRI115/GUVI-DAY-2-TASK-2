@@ -1,0 +1,40 @@
+Question No.4
+The typeof operator is used to get the data type of its operand
+
+console.log(typeof(1)) 
+It will take as integer value
+The typeof operater is "number"
+
+console.log(typeof(1.1)) 
+It will take as integer value.if we use parseFloat it will take as floating point value
+The typeof operator is "number"
+
+console.log(typeof('1.1'))
+Inside the “ ” or ‘ ‘ it take it as string value
+The typeof operator is "string"
+
+console.log(typeof(true))
+The result is ‘Boolean’.it has true and false
+The typeof operator is "boolean"
+
+console.log(typeof(null))
+Typeof null is an ‘object’ which gives a wrong impression that,
+Null is an object where it is a primitive value.
+The typeof operator is "object"
+
+console.log(typeof(undefined))
+)- a type check on an undeclared variable used to result in 'undefined'.
+But this is not an error-safe way to deal with it
+The typeof operator is "undefined"
+
+console.log(typeof([]))
+The result is ‘object’.it will take empty square bracket as object 
+The typeof operator is "object"
+
+console.log(typeof({}))
+The result is ‘object’.it will take empty bracket as object
+The typeof operator is "object"
+
+console.log(typeof(NaN))
+The typeof NaN is 'number'.
+The typeof operator is "number"
